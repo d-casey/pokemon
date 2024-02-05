@@ -1,18 +1,12 @@
 ## React Native Practice
 
-### tl;dr
-
-Overall I was pretty happy to have a working app that fetches pokemon data, displays the data in a carousel, adds data to the state and passes it between screens, whilst also implementing the tab nav. 
-
-This is just an example of one day of refamiliarising myself with React Native. It is all still there and will come back very quickly as I think this shows!
-
 ### Intro
 
-With the conversation coming up around my React Native expertise, I wanted to showcase what I can do in the space of one working day. I chose to use the Pokemon API to fetch data and build a simple Pokemon app. The added benefit here is that my 6 year old can be my tester!
+I wanted to showcase what I can do from scratch in the space of one working day, using React Native. I chose to use the Pokemon API to fetch data and build a simple Pokemon app. The added benefit here is that my 6 year old can be my tester!
 
 I have demonstrated already my level of expertise with React, team leadership, mentoring, ownership etc. And so this is to simply say - here is how much React Native I can do in one day - importantly after being in the Web space for the last 3 years.
 
-With the task I set upon myself to be "how much React Native can I show in one working day from scratch" I needed to make some decisions on what was in scope, and what was out of scope.
+I needed to make some decisions on what was in scope, and what was out of scope due to the amount of time I had. 
 
 I have decided not to setup any state management, such as Redux - as the boilerplate is slightly time consuming, and this is something any React engineer across web or native could demonstrate.
 I have also decided to use Expo Go in order to get building and writing code straight away. 
@@ -29,6 +23,12 @@ The styling utilises flexbox to keep everything organised, and the carousel itse
 The code itself is broken down into some simple reusable pure components (InfoList and CarouselItem), with the components in the screens directory doing the data fetching and organising. 
 
 The data is only fetched with the entry level component (<Pokedex />) first loads. There are clear next steps to continue working on this app and improving it.
+
+### Thought on this progress
+
+Overall I was pretty happy to have a working app that fetches pokemon data, displays the data in a carousel, adds data to the state and passes it between screens, whilst also implementing the tab nav. 
+
+This is just an example of one day of refamiliarising myself with React Native. It is all still there and will come back very quickly as I think this shows!
 
 ### Next Steps
 
