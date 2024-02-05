@@ -28,11 +28,7 @@ export const Party = ({ route }) => {
           data={party}
           scrollAnimationDuration={500}
           onSnapToItem={(index) => console.log("current index:", index)}
-          renderItem={({ item }) => (
-            <>
-              <CarouselItem pokemon={item} />
-            </>
-          )}
+          renderItem={({ item }) => <CarouselItem pokemon={item} />}
         />
       ) : (
         null
@@ -46,17 +42,6 @@ const styles = StyleSheet.create({
     paddingTop: 100,
     flex: 1,
     backgroundColor: "lightcoral",
-  },
-  pokemonBox: {
-    flex: 1,
-    flexDirection: "row",
-    alignItems: "center",
-    backgroundColor: "lightcyan",
-    marginLeft: "3%",
-  },
-  pokemonImage: {
-    width: 160,
-    height: 160,
   },
   description: {
     flex: 1,
